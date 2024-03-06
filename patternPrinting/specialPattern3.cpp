@@ -35,6 +35,7 @@ int main()
         cout << endl;
     }
 
+    // printing in reverse order
     for(row=n; row>=1; row=row-1)
     {   
         //print space
