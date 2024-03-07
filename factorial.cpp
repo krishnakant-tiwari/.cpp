@@ -5,10 +5,12 @@ using namespace std;
 
 int factorial(int x);
 
+//Defining function to calculate the factorial of the given number
 int factorial(int x)
 {
     int i, result = 1;
 
+    // calculating factorial
     for(i=1; i<=x; i++)
     {
         result = result * i;
@@ -25,6 +27,7 @@ int main()
     cout << "Enter a number: ";
     cin >> num;
 
+    //printing factorial by calling the function
     cout << "Factorial = " << factorial(num);
 
     return 0;
