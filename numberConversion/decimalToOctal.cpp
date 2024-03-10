@@ -14,9 +14,9 @@ int main()
     while(num > 0)
     {
         rem = num % 8;          // extracting remainder
-        num = num / 8;          // extracting new number
-        ans = rem * mul + ans;  // extract current answer
-        mul = mul * 10;         // incrementing mul * 10 for every iteration
+        num /= 8;          // extracting new number
+        ans += rem * mul;  // extract current answer
+        mul *= 10;         // incrementing mul * 10 for every iteration
     }
 
     cout << "Octal Number = " << ans;    //printing octal form of the given decimal number
