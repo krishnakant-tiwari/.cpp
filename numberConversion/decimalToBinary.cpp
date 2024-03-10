@@ -15,8 +15,8 @@ int main()
     {
         rem = num & 1;            // extracting remainder
         //rem = num % 2;         // or extracting remainder
-        
-        num /= 2;         // extracting new number 
+        num = num >> 1;      // extracting new number 
+        //num /= 2;         // or extracting new number 
         ans += rem * mul; // extract current answer
         mul *= 10;        // incrementing mul * 10 for every iteration
     }
