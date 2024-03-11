@@ -23,7 +23,7 @@ int main()
             if(num % i == 0)                    // if the number is divisible from any number between 1 and itself then it can not be a Prime number
             {
                 cout << "Not a Prime Number!";
-                return 0;
+                return 0;                      // return 0 end the program  if not a prime number
             }
         }
 
