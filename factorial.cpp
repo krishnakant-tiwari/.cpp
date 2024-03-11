@@ -16,7 +16,7 @@ int factorial(int x)
         result = result * i;
     }
 
-    return (result);
+    return (result); // returning result
 }
 
 int main()
