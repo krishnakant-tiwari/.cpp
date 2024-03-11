@@ -14,7 +14,7 @@ int main()
     if(num < 2)                        // numbers which are less than 2 can not be a prime number
     {
         cout << "Not a Prime Number!";
-        return 0;
+        return 0;                      // return 0 end the program if not a prime number
     }
     else
     {
