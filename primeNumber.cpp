@@ -27,7 +27,7 @@ int main()
             }
         }
 
-        cout << "Prime Number!";
+        cout << "Prime Number!";               // print prime number
     }
 
     return 0;
