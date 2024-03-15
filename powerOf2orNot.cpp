@@ -30,6 +30,26 @@ int main()
     }
 
     cout << "Present in the power of 2";
+
+    // int divider = 2;
+
+    // if(num == 1)
+    // {
+    //     cout << "Yes";
+    //     return 0;
+    // }
+
+    // while(num > divider)
+    // {
+    //     if(num % divider == 0)
+    //     {
+    //         cout << "Yes";
+    //         return 0;
+    //     }
+    //     divider = divider * 2;
+    // }
+
+    // cout << "No";
     
     return 0;
 }
