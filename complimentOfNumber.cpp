@@ -9,6 +9,12 @@ int main()
 
     cout << "Enter a number: ";
     cin >> num;
+    
+    if(num == 0)
+    {
+        cout << "Compliment = " << 1;
+        return 0;
+    }
 
     while(num)
     {
