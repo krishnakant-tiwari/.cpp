@@ -10,6 +10,12 @@ int main()
     cout << "Enter a number: ";
     cin >> num;
 
+    if(num < 0)
+    {
+        cout << "Not a pallindrome";
+        return 0;
+    }
+
     holdNum = num;
 
     while(num)
