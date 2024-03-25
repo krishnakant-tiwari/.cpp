@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+
+class test
+{
+    public:
+    int a;
+};
+
+int main()
+{
+    test object;
+    
+    cout << "Enter a number : " << endl;
+    cin >> object.a;
+    cout << "Number = " << object.a << endl;
+    
+    return 0;
+}
