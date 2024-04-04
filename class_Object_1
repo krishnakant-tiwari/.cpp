@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+
+class test
+{
+    public:
+    int a;
+    
+    public:
+    void input()
+    {
+        cout << "Enter a Number : " << endl;
+        cin >> a;
+    }
+    public:
+    void output()
+    {
+        cout << "Number = " << a << endl;
+    }
+};
+
+int main()
+{
+    test object;
+
+    object.input();
+    object.output();
+    
+    return 0;
+}
