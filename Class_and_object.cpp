@@ -1,5 +1,5 @@
 // C++ program to demonstrate function  
-// declaration outside class 
+// declaration outside class
 
   
 #include <iostream> 
@@ -29,7 +29,7 @@ class Container
   
 // Definition of printname using scope resolution operator :: 
 
-void Container::printname() 
+void Container::printname() // defining outside the class with scope resolution operator 
 { 
 
     cout <<"name is: "<<name;  
